@@ -1,0 +1,97 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jakub Dzwończyk</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100 border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/my_picture.jpg' %}" >
+					<hr>
+					<h4>Hi I'm Jaksa !</h4>
+					<p>I love coding, doing research and collaborating</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>Who am I ?</h4>
+					<hr>
+					<p>My name is Jakub, but you can call me Jaksa.
+                       I am a second year computer science student at WSB NLU in Nowy Sącz. 
+                       The Speciality I chose is "Business App Developer".              
+                    </p>
+
+                    <p>
+
+                    </p>
+
+					<ul class="social-links">
+						<li><a href="https://www.facebook.com/jaksa1703/" target="_blank"><img class="social" id="social" src="{% static 'images/facebook.png' %}"></a></li>
+						<li><a href="https://www.linkedin.com/in/jakub-dzwończyk-73b951206/" target="_blank"><img class="social" id="social" src="{% static 'images/linkedin.png' %}"></a></li>
+						<li><a href="https://github.com/Jaksa1703" target="_blank"><img class="social" id="social" src="{% static 'images/github.png' %}"></a></li>
+						<li><a href="https://discord.com/users/518169529965215744" target="_blank"><img class="social" id="social" src="{% static 'images/discord.png' %}"></a></li>
+					</ul>
+
+					<p>Here you can check out my <a href="https://jaksa1703.github.io/CV-Jakub-Dzwonczyk/" target="_blank">CV</a></p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>The truth is i don't have any professional expirience as a dev. <br>
+                        This website was created to help my land my first job.</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr> 
+					<p>Skills I have learnt on my own : Python, Django, HTML/CSS, Bootstrap and APIs.</p>
+					<p>Shills I have learnt at university : Java, Linux and cmd.  </p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>I am a quick learner. For me the best way to learn is learning by practice.
+                        After reading or listening about various topis i like to implement my knowledge and build practical things.
+                        You can find my projects on my GitHub page. 
+                    </p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short and Long Term Goals</h5>
+				<hr>
+				<p>I want to try diffrent things in my life, right now I put my focus on learning how to become a python backend developer.<br>
+                    Thru my whole career i also want to try devops engineering and data visuzlization. 
+                </p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
